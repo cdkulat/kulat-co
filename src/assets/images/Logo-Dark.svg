@@ -17,8 +17,7 @@
 <feGaussianBlur stdDeviation="2"/>
 <feComposite in2="hardAlpha" operator="out"/>
 <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_54"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3_54" result="shape"/>
+
 </filter>
 <filter id="filter1_d_3_54" x="25.5909" y="21.108" width="18.9091" height="9.32101" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>

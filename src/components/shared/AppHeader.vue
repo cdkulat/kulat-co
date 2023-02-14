@@ -1,13 +1,11 @@
 <script>
 import ThemeSwitcher from '../ThemeSwitcher';
-import HireMeModal from '../HireMeModal.vue';
 import feather from 'feather-icons';
 import AppHeaderLinks from './AppHeaderLinks.vue';
 
 export default {
 	components: {
 		ThemeSwitcher,
-		HireMeModal,
 		AppHeaderLinks,
 	
 	},
@@ -74,7 +72,7 @@ export default {
 </script>
 
 <template>
-	<nav id="nav" class="sm:container sm:mx-auto">
+	<nav id="nav" class="sm:container sm:mx-auto justify-content align-middle">
 		<!-- Header start -->
 		<div
 			class="z-10 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between sm:items-center my-6"
@@ -151,13 +149,6 @@ export default {
 			</div>
 		</div>
 
-		<!-- Hire me modal -->
-		<HireMeModal
-			:showModal="showModal"
-			:modal="modal"
-			:categories="categories"
-			aria-modal="Hire Me Modal"
-		/>
 	</nav>
 </template>
 

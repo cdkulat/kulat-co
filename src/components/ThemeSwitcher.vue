@@ -18,11 +18,11 @@ export default {
 </script>
 
 <template>
-	<a href="#" @click.prevent="toggleTheme" aria-label="Theme Switcher">
+	<a href="#" @click.prevent="toggleTheme" aria-label="Theme Switcher" class="drop-shadow-md border-slate-400">
 		<i
 			v-if="theme === 'light'"
 			data-feather="moon"
-			class="text-liText-ternary-dark hover:text-gray-400 dark:text-liText-ternary-light dark:hover:text-liBorder-primary-light w-5"
+			class="text-li text-ternary-dark hover:text-gray-400 dark:text-liText-ternary-light dark:hover:text-li border-primary-light w-5"
 		></i>
 		<i
 			v-else
