@@ -8,7 +8,6 @@ body {
 	font-family: 'Inter';
 }
 
-/* Active class for navigation menu */
 .router-link-active,
 .router-link-exact-active {
 	@apply text-indigo-800;
