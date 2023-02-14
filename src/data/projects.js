@@ -15,7 +15,7 @@ const projects = [
 		id:1,
 		title:'Number Guessing Game',
 		category: '',
-		img:'',
+		img:'number-game.png',
 	},
 
 	{
