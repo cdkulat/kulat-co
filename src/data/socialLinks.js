@@ -3,13 +3,13 @@ export const socialLinks = [
 		id: 1,
 		name: 'Website',
 		icon: 'globe',
-		url: 'https://www.stoman.me/',
+		url: 'https://www.kulat.co/',
 	},
 	{
 		id: 2,
 		name: 'GitHub',
 		icon: 'github',
-		url: 'https://github.com/realstoman',
+		url: 'https://github.com/cdkulat',
 	},
 	{
 		id: 3,
