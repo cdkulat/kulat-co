@@ -28,7 +28,7 @@ export default {
 				>{{ project.category }}</span
 			>
 			<div
-				class="font-general-medium text-lg text-ternary-dark dark:text-ternary-light"
+				class="font-general-medium text-lg text-ternary-dark dark:text-slate-300"
 				>Using {{ project.technologies }}</div
 			>
 		</div>
