@@ -16,6 +16,9 @@ const projects = [
 		title:'Number Guessing Game',
 		category: 'Command Line Application',
 		img:require('@/assets/images/number-game.png'),
+		technologies: "Python",
+		objective: '',
+		description: '',
 	},
 
 	{
@@ -23,6 +26,9 @@ const projects = [
 		title:"Dice Rolling Discord Bot in Go",
 		category:'Bots',
 		img: require('@/assets/images/dice-roller.png'),
+		technologies: "Go, Discord",
+		objective: '',
+		description: '',
 	},
 
 	{
@@ -30,6 +36,9 @@ const projects = [
 		title:"PDF Text Extractor",
 		category:'Command Line Application',
 		img:require('@/assets/images/text-extraction.png'),
+		technologies: 'Python',
+		objective: '',
+		description: '',
 	},
 
 	{
@@ -37,6 +46,9 @@ const projects = [
 		title:"Urban Definitions",
 		category:'Bots',
 		img: require('@/assets/images/urban-def.png'),
+		technologies: 'Go, Discord',
+		objective: '',
+		description: '',
 	}
 
 ];

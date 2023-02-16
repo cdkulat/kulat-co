@@ -19,11 +19,6 @@ export default {
 		<div class="w-full sm:w-1/3 text-left">
 			<!-- Single project client details -->
 			<div class="mb-7">
-				<p
-					class="font-general-medium text-2xl text-secondary-dark dark:text-secondary-light mb-2"
-				>
-					{{ projectInfo.clientHeading }}
-				</p>
 				<ul class="leading-loose">
 					<li
 						v-for="info in projectInfo.companyInfos"

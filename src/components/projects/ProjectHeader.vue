@@ -1,6 +1,13 @@
 <script>
+import projects from '../../data/projects';
 export default {
 	props: ['singleProjectHeader'],
+	
+	data: () => {
+		return {
+			projectItem: projects
+		}
+	}
 };
 </script>
 

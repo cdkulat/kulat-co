@@ -27,6 +27,10 @@ export default {
 				class="font-general-medium text-lg text-ternary-dark dark:text-ternary-light"
 				>{{ project.category }}</span
 			>
+			<div
+				class="font-general-medium text-lg text-ternary-dark dark:text-ternary-light"
+				>Using {{ project.technologies }}</div
+			>
 		</div>
 	</router-link>
 </template>
