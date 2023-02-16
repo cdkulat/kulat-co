@@ -14,28 +14,28 @@ const projects = [
 	{
 		id:1,
 		title:'Number Guessing Game',
-		category: '',
+		category: 'Command Line Application',
 		img:require('@/assets/images/number-game.png'),
 	},
 
 	{
 		id:2,
 		title:"Dice Rolling Discord Bot in Go",
-		category:'',
+		category:'Bots',
 		img: require('@/assets/images/dice-roller.png'),
 	},
 
 	{
 		id:3,
 		title:"PDF Text Extractor",
-		category:'',
+		category:'Command Line Application',
 		img:require('@/assets/images/text-extraction.png'),
 	},
 
 	{
 		id:4,
 		title:"Urban Definitions",
-		category:'',
+		category:'Bots',
 		img: require('@/assets/images/urban-def.png'),
 	}
 
