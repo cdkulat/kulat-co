@@ -9,7 +9,7 @@ theme = 'paper'
     twitter = 'christiankulat'
     github = 'cdkulat'
     instagram = 'b00lat'
-    rss = true
+    rss = false
 
     avatar = 'cdkulat1@gmail.com'
     name = 'Christian Kulat'
