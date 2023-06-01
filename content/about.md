@@ -13,4 +13,4 @@ I'm getting married in October of this year, and in my spare time I love cooking
 
 Thank you for checking out my website. Feel free to reach out to speak about any opportunities you may have. I hope you consider making me a part of your team!
 
-[Here's my resume.]()
+[Here's my resume.](https://kulat.co/resume)
