@@ -1,3 +1,57 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL: "https://kulat.co/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+title: "kulat.co"
+paginate: 5
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+# googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    # minifyOutput: true
+
+
+params:
+        env: production
+        languageName: "English"
+        weight: 1
+        taxonomies:
+          category: categories
+          tag: tags
+          series: series
+        homeInfoParams:
+          Title: "Hey, I'm Christian."
+          Content: >
+            Thanks for coming to my blog/portfolio!
+
+            - In the future, I'll be posting things I've learned, tidbits of code, and projects that I'm working on.
+            
+            - You can find the most recent of those posts below this blurb.
+
+            - If you have questions or would like to reach out and work together, visit the contact page!
+        socialIcons:
+          - name: github
+            url: "https://github.com/cdkulat"
+          - name: linkedin
+            url: "https://linkedin.com/in/cdkulat"
+          - name: discord
+            url: "https://discordapp.com/165252741050925057"
+          - name: twitter
+            url: "https://twitter.com/christiankulat"
+menu:
+  main:
+    - name: About
+      url: "/about"
+      weight: 5
+    - name: Contact
+      url: "/contact"
+      weight: 10
+    - name: Resume
+      url: "/resume"
+      weight: 10
