@@ -1,1 +1,0 @@
-Portfolio site using Hugo for Christian Kulat
