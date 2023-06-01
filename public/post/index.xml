@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Go Journey on kulat.co</title>
+    <link>http://kulat.co/post/</link>
+    <description>Recent content in My Go Journey on kulat.co</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Mar 2017 00:00:00 +0000</lastBuildDate><atom:link href="http://kulat.co/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>http://kulat.co/post/placeholder/</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://kulat.co/post/placeholder/</guid>
+      <description>##Here&amp;rsquo;s my first post!
+Felt like refactoring my website to make it easier to write blog posts and record my experiences at this point in my career. Now, the blog posts can have simple tags and are all written in full markdown, so the styling is customizable and real easy.
+Currently, I plan on updating this site with tidbits on what I&amp;rsquo;ve learned, and the projects I&amp;rsquo;ve completed as a part of my portfolio.</description>
+    </item>
+    
+  </channel>
+</rss>
