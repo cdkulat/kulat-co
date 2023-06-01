@@ -1,4 +1,4 @@
-baseURL = 'http://kulat.co/'
+baseURL = 'http://www.kulat.co/'
 languageCode = 'en-us'
 title = 'kulat.co'
 theme = 'paper'
