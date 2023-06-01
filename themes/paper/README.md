@@ -58,7 +58,6 @@ disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
   github = 'YOUR_GITHUB_ID'                 # github.com/YOUR_GITHUB_ID
   instagram = 'YOUR_INSTAGRAM_ID'           # instagram.com/YOUR_INSTAGRAM_ID
   mastodon = 'YOUR_MASTODON_LINK'           # e.g. 'https://mastodon.instance/@xxx'
-  rss = true                                # show rss icon
 
   # home page profile
   avatar = 'GRAVATAR_EMAIL'                 # gravatar email or image url
