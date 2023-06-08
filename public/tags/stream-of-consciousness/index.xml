@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My Go Journey on kulat.co</title>
-    <link>https://kulat.co/post/</link>
-    <description>Recent content in My Go Journey on kulat.co</description>
+    <title>stream-of-consciousness on kulat.co</title>
+    <link>https://kulat.co/tags/stream-of-consciousness/</link>
+    <description>Recent content in stream-of-consciousness on kulat.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Mar 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://kulat.co/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kulat.co/tags/stream-of-consciousness/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Where do I go from here?</title>
       <link>https://kulat.co/post/jobs-projects/</link>
@@ -15,16 +15,6 @@
       <guid>https://kulat.co/post/jobs-projects/</guid>
       <description>Getting hired is hard. I&amp;rsquo;ve been applying to software jobs (at least 5 good ones per day) for about a month now, having graduated with a bachelor&amp;rsquo;s in comp sci. So far, it&amp;rsquo;s been less than stellar.
 The answer is simply to keep applying, but being faced with this reality is certainly disappointing - after all, starting what I view as my long-term career and securing financial stability is a dream that I share with millions of other new college grads.</description>
-    </item>
-    
-    <item>
-      <title>Welcome!</title>
-      <link>https://kulat.co/post/first/</link>
-      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://kulat.co/post/first/</guid>
-      <description>Here&amp;rsquo;s my first post! Felt like refactoring my website to make it easier to write blog posts and record my experiences at this point in my career. Now, the blog posts can have simple tags and are all written in full markdown, so the styling is customizable and real easy.
-Currently, I plan on updating this site with tidbits on what I&amp;rsquo;ve learned, and the projects I&amp;rsquo;ve completed as a part of my portfolio.</description>
     </item>
     
   </channel>
