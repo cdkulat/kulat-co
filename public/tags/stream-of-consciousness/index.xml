@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>stream-of-consciousness on kulat.co</title>
+    <title>Stream-of-Consciousness on kulat.co</title>
     <link>https://kulat.co/tags/stream-of-consciousness/</link>
-    <description>Recent content in stream-of-consciousness on kulat.co</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Stream-of-Consciousness on kulat.co</description>
+    <generator>Hugo -- 0.138.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kulat.co/tags/stream-of-consciousness/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kulat.co/tags/stream-of-consciousness/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello.</title>
+      <link>https://kulat.co/post/hello/</link>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://kulat.co/post/hello/</guid>
+      <description>&lt;h2 id=&#34;were-so-back&#34;&gt;We&amp;rsquo;re so back?&lt;/h2&gt;
+&lt;p&gt;I stopped even thinking about this site in last May. Truthfully, I was approached for an awesome job at a great company around early June, and am still working there today.&lt;/p&gt;
+&lt;p&gt;Something that my employer has really emphasized is leaning into our professional development, which is something I oft neglected after getting hired. Turns out, it&amp;rsquo;s extremely easy to get complacent once you&amp;rsquo;ve achieved one of your goals.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Where do I go from here?</title>
       <link>https://kulat.co/post/jobs-projects/</link>
       <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://kulat.co/post/jobs-projects/</guid>
-      <description>Getting hired is hard. I&amp;rsquo;ve been applying to software jobs (at least 5 good ones per day) for about a month now, having graduated with a bachelor&amp;rsquo;s in comp sci. So far, it&amp;rsquo;s been less than stellar.
-The answer is simply to keep applying, but being faced with this reality is certainly disappointing - after all, starting what I view as my long-term career and securing financial stability is a dream that I share with millions of other new college grads.</description>
+      <description>&lt;h3 id=&#34;getting-hired-is-hard&#34;&gt;Getting hired is hard.&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;ve been applying to software jobs (at least 5 good ones per day) for about a month now, having graduated with a bachelor&amp;rsquo;s in comp sci. So far, it&amp;rsquo;s been less than stellar.&lt;/p&gt;
+&lt;p&gt;The answer is simply to keep applying, but being faced with this reality is certainly disappointing - after all, starting what I view as my long-term career and securing financial stability is a dream that I share with millions of other new college grads.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
