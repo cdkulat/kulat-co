@@ -8,7 +8,7 @@ Christian Kulat
 ============
 
 
-> I’m a full-stack software engineer and IT support professional based out of Atlanta, GA. I'm most >comfortable using Go and Python, with a focus in cloud technologies and microservices. I'm >experienced in technical writing, API services, and communicating with customers and stakeholders.
+> I’m a full-stack software engineer and IT support professional based out of Atlanta, GA. I'm most comfortable using Go and Python, with a focus in cloud technologies and microservices. I'm experienced in technical writing, API services, and communicating with customers and stakeholders.
 
 
 Education and Certifications
