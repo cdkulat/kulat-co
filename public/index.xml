@@ -27,6 +27,20 @@
 &lt;p&gt;The answer is simply to keep applying, but being faced with this reality is certainly disappointing - after all, starting what I view as my long-term career and securing financial stability is a dream that I share with millions of other new college grads.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Christian Kulat&#39;s Resume</title>
+      <link>https://kulat.co/resume/</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://kulat.co/resume/</guid>
+      <description>&lt;h1 id=&#34;christian-kulat&#34;&gt;Christian Kulat&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I’m a full-stack software engineer and IT support professional based out of Atlanta, GA. I&amp;rsquo;m most comfortable using Go and Python, with a focus in cloud technologies and microservices. I&amp;rsquo;m experienced in technical writing, API services, and communicating with customers and stakeholders.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;education-and-certifications&#34;&gt;Education and Certifications&lt;/h2&gt;
+&lt;h3 id=&#34;bachelor-of-science-in-computer-science-minor-in-software-engineering-kennesaw-state-university&#34;&gt;&lt;strong&gt;Bachelor of Science in Computer Science, Minor in Software Engineering&lt;/strong&gt;; Kennesaw State University&lt;/h3&gt;
+&lt;p&gt;2018 - 2023&lt;/p&gt;
+&lt;p&gt;Completed a full degree track in Computer Science, with an emphasis on user design, algorithm analysis, software testing and quality assurance and other important facets of software engineering such as API design, microservice architecture and networking. Classes taken include SoftwareTesting and QA, Algorithm Analysis, Artifical Intelligence and Cryptography. Final semester of degree consistedof a unique capstone project focused on the development of a gamified rewards solution for a Fortune 20 company.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Welcome!</title>
       <link>https://kulat.co/post/first/</link>
       <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
@@ -48,19 +62,6 @@
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
       <guid>https://kulat.co/contact/</guid>
       <description>Christian Kulat, developer extraordinaire.</description>
-    </item>
-    <item>
-      <title>Christian Kulat&#39;s Resume</title>
-      <link>https://kulat.co/resume/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kulat.co/resume/</guid>
-      <description>&lt;h1 id=&#34;christian-kulat&#34;&gt;Christian Kulat&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;I’m a full-stack software engineer creating functional and beautiful code primarily in Python
-and Go. Based in Atlanta, I’ve been studying software development since 2017 and am looking
-to join a team to help both the company and myself grow. I’m comfortable with version control
-and technical writing, and am interested in building microservices for the cloud! I’m still
-learning every day, and am looking forward to taking ahold of every opportunity handed to me.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
