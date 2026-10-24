@@ -1,0 +1,10 @@
+{{define "main"}}
+<article class="post">
+  <header class="page-header">
+    <h1>{{.Page.Title}}{{if .Page.Draft}} <span class="badge">draft</span>{{end}}</h1>
+    {{template "post-meta" .Page}}
+  </header>
+  <div class="content">{{.Page.Content}}</div>
+  <footer>{{template "tag-list" .Page.Tags}}</footer>
+</article>
+{{end}}

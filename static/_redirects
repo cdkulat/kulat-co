@@ -1,0 +1,5 @@
+# Cloudflare Pages redirects: https://developers.cloudflare.com/pages/configuration/redirects/
+# Hugo published these; keep old links and feed subscriptions working.
+/categories/            /tags/       301
+/categories/index.xml   /index.xml   301
+/tags/index.xml         /index.xml   301
