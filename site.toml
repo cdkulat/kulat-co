@@ -24,6 +24,10 @@ Thanks for coming to my blog/portfolio!
 """
 
 [[menu]]
+name = "Projects"
+url = "/projects/"
+
+[[menu]]
 name = "About"
 url = "/about/"
 
