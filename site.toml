@@ -1,0 +1,52 @@
+# Site settings for the Go generator (replaces Hugo's config.yml).
+baseURL = "https://kulat.co/"
+title = "kulat.co"
+description = "Christian Kulat's blog and portfolio."
+author = "Christian Kulat"
+language = "en"
+paginate = 5
+
+# Folders under content/ whose pages show on the home page and in /index.xml.
+mainSections = ["post"]
+
+# Chroma styles for code blocks: https://xyproto.github.io/splash/docs/
+highlightStyle = "github"
+highlightStyleDark = "github-dark"
+
+[home]
+title = "Hey, I'm Christian."
+intro = """
+I'm a Senior IT Analyst and software engineer in Atlanta, and this is my blog and portfolio.
+
+- I post things I've learned, tidbits of code, and the projects I'm working on.
+- The most recent posts are below. You can also browse my [projects](/projects/) or my [resume](/resume/).
+- Have a question or an idea? Visit the [contact page](/contact/)!
+"""
+
+[[menu]]
+name = "Projects"
+url = "/projects/"
+
+[[menu]]
+name = "About"
+url = "/about/"
+
+[[menu]]
+name = "Contact"
+url = "/contact/"
+
+[[menu]]
+name = "Resume"
+url = "/resume/"
+
+[[social]]
+name = "GitHub"
+url = "https://github.com/cdkulat"
+
+[[social]]
+name = "LinkedIn"
+url = "https://linkedin.com/in/cdkulat"
+
+[[social]]
+name = "Discord"
+url = "https://discord.com/users/165252741050925057"

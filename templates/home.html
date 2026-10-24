@@ -1,0 +1,9 @@
+{{define "main"}}
+{{if eq .Pager.Number 1}}<section class="intro">
+  <h1>{{.Site.Home.Title}}</h1>
+  {{.Site.Intro}}
+  <ul class="social">{{range .Site.Social}}<li><a href="{{.URL}}" rel="me">{{.Name}}</a></li>{{end}}</ul>
+</section>{{end}}
+{{range .Pages}}{{template "post-entry" .}}{{end}}
+{{template "pagination" .}}
+{{end}}
