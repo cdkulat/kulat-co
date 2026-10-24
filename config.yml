@@ -28,22 +28,20 @@ params:
         homeInfoParams:
           Title: "Hey, I'm Christian."
           Content: >
-            Thanks for coming to my blog/portfolio!
+            I'm a Senior IT Analyst and software engineer in Atlanta, and this is my blog and portfolio.
 
-            - In the future, I'll be posting things I've learned, tidbits of code, and projects that I'm working on.
-            
-            - You can find the most recent of those posts below this blurb.
+            - I post things I've learned, tidbits of code, and the projects I'm working on.
 
-            - If you have questions or would like to reach out and work together, visit the contact page!
+            - The most recent posts are below. You can also browse my [projects](/projects/) or my [resume](/resume/).
+
+            - Have a question or an idea? Visit the [contact page](/contact/)!
         socialIcons:
           - name: github
             url: "https://github.com/cdkulat"
           - name: linkedin
             url: "https://linkedin.com/in/cdkulat"
           - name: discord
-            url: "https://discordapp.com/165252741050925057"
-          - name: twitter
-            url: "https://twitter.com/christiankulat"
+            url: "https://discord.com/users/165252741050925057"
 menu:
   main:
     - name: About
