@@ -1,0 +1,12 @@
+# Cloudflare Pages headers: https://developers.cloudflare.com/pages/configuration/headers/
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: DENY
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+# Keep the *.pages.dev copies of the site out of search results so only
+# kulat.co gets indexed. Branch previews already get this from Cloudflare.
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex

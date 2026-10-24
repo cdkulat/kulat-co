@@ -57,10 +57,14 @@ Every other field is still available to templates through `.Page.Param "name"`, 
 
 ## Deploying on Cloudflare Pages
 
-Connect the repo in Cloudflare Pages with:
+Connect the repo in Cloudflare Pages (Workers & Pages → Create → Pages → Connect to Git) with:
 
+- Production branch: `main`
+- Framework preset: None
 - Build command: `go run .`
 - Build output directory: `public`
 - Environment variable: `GO_VERSION` = `1.24`
 
-`static/_redirects` keeps the old Hugo-only URLs (`/categories/`, `/tags/index.xml`) pointing somewhere useful.
+Every other branch gets its own preview at `<branch>.<project>.pages.dev`, so a pull request can be checked before it merges.
+
+`static/_redirects` keeps the old Hugo-only URLs (`/categories/`, `/tags/index.xml`) pointing somewhere useful. `static/_headers` adds basic security headers and keeps the `*.pages.dev` copies of the site out of search results.
