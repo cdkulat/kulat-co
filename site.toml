@@ -16,11 +16,11 @@ highlightStyleDark = "github-dark"
 [home]
 title = "Hey, I'm Christian."
 intro = """
-Thanks for coming to my blog/portfolio!
+I'm a Senior IT Analyst and software engineer in Atlanta, and this is my blog and portfolio.
 
-- In the future, I'll be posting things I've learned, tidbits of code, and projects that I'm working on.
-- You can find the most recent of those posts below this blurb.
-- If you have questions or would like to reach out and work together, visit the contact page!
+- I post things I've learned, tidbits of code, and the projects I'm working on.
+- The most recent posts are below. You can also browse my [projects](/projects/) or my [resume](/resume/).
+- Have a question or an idea? Visit the [contact page](/contact/)!
 """
 
 [[menu]]
