@@ -1,16 +1,14 @@
 +++
 title = "About Me"
 description = "Christian Kulat, developer extraordinaire."
-date = "2023-05-02"
+date = "2026-10-24"
 author = "Christian Kulat"
 +++
 
-I'm Christian, a software engineer currently living in the Atlanta area. I've been studying programming for 6 years now, and I'm looking for an opportunity to contribute to your team!
+I'm Christian, a Senior IT Analyst at Chick-fil-A and a software engineer based in the Atlanta area. I've been writing software for about nine years, and I spend my days troubleshooting for over 3,000 restaurants across the US, Canada, Europe and Singapore.
 
-My main programming tools are Go and Python - I have enjoy building small scripts, single page applications, testing suites and bots for the online chat and community service Discord. I try and approach these problems by writing the most efficient and beautiful code possible. 
+My main programming tools are Go and Python. I enjoy building small scripts, single page applications, testing suites, and tools that make everyday work easier, like a browser extension that keeps my ticket queue in check. I try to approach these problems by writing the most efficient and beautiful code possible.
 
-I'm getting married in October of this year, and in my spare time I love cooking and  playing video games!
+In my spare time I love cooking and playing video games!
 
-Thank you for checking out my website. Feel free to reach out to speak about any opportunities you may have. I hope you consider making me a part of your team!
-
-[Here's my resume.](https://kulat.co/resume)
+Thanks for checking out my website. Have a look at my [projects](/projects), my [resume](/resume), or feel free to [reach out](/contact).
