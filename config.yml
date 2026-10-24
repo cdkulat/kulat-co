@@ -34,7 +34,7 @@ params:
 
             - The most recent posts are below. You can also browse my [projects](/projects/) or my [resume](/resume/).
 
-            - Have a question or an idea? Visit the contact page!
+            - Have a question or an idea? Visit the [contact page](/contact/)!
         socialIcons:
           - name: github
             url: "https://github.com/cdkulat"
