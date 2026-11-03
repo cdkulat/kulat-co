@@ -1,4 +1,5 @@
-.vercel
+# Build output from `go run .`
+/public/
 
-# Local Netlify folder
+.vercel
 .netlify

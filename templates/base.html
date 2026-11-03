@@ -1,0 +1,35 @@
+{{define "base"}}<!doctype html>
+<html lang="{{.Site.Language}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{if .Title}}{{.Title}} | {{end}}{{.Site.Title}}</title>
+  <meta name="description" content="{{or .Description .Site.Description}}">
+  {{with .Page}}{{with .Author}}<meta name="author" content="{{.}}">{{end}}{{end}}
+  <link rel="canonical" href="{{absURL .URL}}">
+  <meta property="og:title" content="{{or .Title .Site.Title}}">
+  <meta property="og:url" content="{{absURL .URL}}">
+  <meta property="og:type" content="{{if eq .Kind "single"}}article{{else}}website{{end}}">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="alternate" type="application/rss+xml" title="{{.Site.Title}}" href="{{absURL (or .FeedURL "/index.xml")}}">
+</head>
+<body>
+  {{template "header" .}}
+  <main class="main">
+    {{template "main" .}}
+  </main>
+  {{template "footer" .}}
+  {{if .Site.Dev}}<script>
+    (function () {
+      var v;
+      setInterval(function () {
+        fetch("/__reload").then(function (r) { return r.text(); }).then(function (t) {
+          if (v && t && t !== v) location.reload();
+          v = t;
+        }).catch(function () {});
+      }, 800);
+    })();
+  </script>{{end}}
+</body>
+</html>{{end}}

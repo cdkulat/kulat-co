@@ -1,0 +1,8 @@
+{{define "header"}}<header class="site-header">
+  <a class="logo" href="/">{{.Site.Title}}</a>
+  <nav>
+    <ul>
+      {{range .Site.Menu}}<li><a href="{{.URL}}"{{if eq .URL $.URL}} aria-current="page"{{end}}>{{.Name}}</a></li>{{end}}
+    </ul>
+  </nav>
+</header>{{end}}

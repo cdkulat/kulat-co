@@ -1,0 +1,17 @@
+{{define "post-entry"}}<article class="entry">
+  <h2 class="entry-title"><a href="{{.URL}}">{{.Title}}</a>{{if .Draft}} <span class="badge">draft</span>{{end}}</h2>
+  <div class="entry-summary">{{.Summary}}</div>
+  {{template "post-meta" .}}
+</article>{{end}}
+
+{{define "post-meta"}}<p class="meta">
+  {{if not .Date.IsZero}}<time datetime="{{isoDate .Date}}">{{date .Date}}</time> · {{end}}{{.ReadingTime}} min read{{with .Author}} · {{.}}{{end}}
+</p>{{end}}
+
+{{define "pagination"}}{{if and .Pager (gt .Pager.Total 1)}}<nav class="pagination">
+  {{with .Pager.PrevURL}}<a class="prev" href="{{.}}">« Newer</a>{{end}}
+  <span>Page {{.Pager.Number}} of {{.Pager.Total}}</span>
+  {{with .Pager.NextURL}}<a class="next" href="{{.}}">Older »</a>{{end}}
+</nav>{{end}}{{end}}
+
+{{define "tag-list"}}{{with .}}<ul class="tags">{{range .}}<li><a href="/tags/{{urlize .}}/">{{.}}</a></li>{{end}}</ul>{{end}}{{end}}

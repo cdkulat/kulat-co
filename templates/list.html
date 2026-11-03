@@ -1,0 +1,8 @@
+{{define "main"}}
+<header class="page-header">
+  <h1>{{.Section.Title}}</h1>
+  {{if eq .Pager.Number 1}}{{.Section.Content}}{{end}}
+</header>
+{{range .Pages}}{{template "post-entry" .}}{{else}}<p>Nothing here yet.</p>{{end}}
+{{template "pagination" .}}
+{{end}}
