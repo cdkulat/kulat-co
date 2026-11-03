@@ -1,4 +1,4 @@
-module github.com/cdkulat/kulat-co
+module kulat.co
 
 go 1.24
 
